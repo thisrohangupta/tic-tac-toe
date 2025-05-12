@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+    width: 330px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-size: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ddd;
+}
